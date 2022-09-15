@@ -3,14 +3,13 @@
 #### Junior Frontend Developer
 ***
 #### Contacts
-***
 * **Location:** Vitebsk, Belarus
 * **Phone:** [+375(33) 359 60 93](href: " +375333596093") 
 * **Email:** borisevich9852@gmail.com
 * **GitHub:** [nikitaborisevich](https://github.com/nikitaborisevich)
 
-#### About me
 ***
+#### About me
 Currently I work in a family workshop as a stained glass artist, I am responsible for the full cycle of stained glass production, from the development (creation of a graphic base) of a stained glass window to the production of a finished material product. I have skills in stained glass areas such as: 
 
 * Laid on stained glass.
@@ -28,8 +27,8 @@ Why am I able to advance in development?
 * Self-discipline at a high level
 * I see prospects for development in the field of programming.
 
-#### Skills
 ***
+#### Skills
 * HTML, CSS
 * JavaScript (Basic)
 * Git, GitHub
@@ -42,8 +41,8 @@ Why am I able to advance in development?
     * Forger Classic
     * Figma
 
-#### Code example:
 ***
+#### Code example:
 ##### [Array Helpers](https://www.codewars.com/kata/525d50d2037b7acd6e000534) KATA from CODEWARS:
 
 **Deskription:**
@@ -124,7 +123,7 @@ Array.prototype.odd = function() {
   return arr
 }
 ```
-
+***
 #### Education
 * **University:** Vitebsk State University named after P.M. Masherov, faculty:"Information technology software", speciality: "Engineer programmer"
 * **Self-education:**
@@ -132,4 +131,6 @@ Array.prototype.odd = function() {
     * [CodeWar](https://www.codewars.com/)
 * **Courses:** [RS School Course](https://rs.school/) ["JavaScript/Front-end.](https://rs.school/js/) Stage 1" (in progress)
 * **Books:** Steven C.McConnell: "Code Complete Second Edition" (in progress)
+
+
 
