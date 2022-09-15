@@ -125,4 +125,11 @@ Array.prototype.odd = function() {
 }
 ```
 
+#### Education
+* **University:** Vitebsk State University named after P.M. Masherov, faculty:"Information technology software", speciality: "Engineer programmer"
+* **Self-education:**
+    * [LearnJS](https://learn.javascript.ru/)
+    * [CodeWar](https://www.codewars.com/)
+* **Courses:** [RS School Course](https://rs.school/) ["JavaScript/Front-end.](https://rs.school/js/) Stage 1" (in progress)
+* **Books:** Steven C.McConnell: "Code Complete Second Edition" (in progress)
 
