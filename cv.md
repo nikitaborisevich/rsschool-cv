@@ -28,3 +28,18 @@ Why am I able to advance in development?
 * Self-discipline at a high level
 * I see prospects for development in the field of programming.
 
+#### Skills
+***
+* HTML, CSS
+* JavaScript (Basic)
+* Git, GitHub
+* VS Code
+* Graphics:
+    * Adobe Photoshop
+    * Adobe Illustrator
+    * Corel Draw
+    * Procrate
+    * Forger Classic
+    * Figma
+
+
