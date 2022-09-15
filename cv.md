@@ -132,5 +132,10 @@ Array.prototype.odd = function() {
 * **Courses:** [RS School Course](https://rs.school/) ["JavaScript/Front-end.](https://rs.school/js/) Stage 1" (in progress)
 * **Books:** Steven C.McConnell: "Code Complete Second Edition" (in progress)
 
-
-
+***
+#### Languages:
+* **English:** A2 (practiced English during work trips to Switzerland and Israel), currently on self-education
+* **Belarusian:** Native
+* **Russian:** Native
+* **Ukrainian:** Basic
+* **Polish:** Basic
