@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Previev */
+
+.block {
+    height: 100vh;
+    color: #fff;
+    padding-top: 25vw;
+    padding-left: 15vw;
+    position: relative;
+}
+
+.bg {
+    background: #444 url("../img/mountain.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    filter: saturate(70%) brightness(70%);
+}
+
+.title {
+    display: inline-block;
+    font-size: 2vw;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    text-shadow: 0 2px 4px rgba(0,0,0.4);
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1.5vw;
+    left: 0;
+    right: -4vw;
+    height: 0.3vw;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0.2);
+}
+
