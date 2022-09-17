@@ -37,7 +37,7 @@ Why am I able to advance in development?
     * Adobe Photoshop
     * Adobe Illustrator
     * Corel Draw
-    * Procrate
+    * Procreate
     * Forger Classic
     * Figma
 
