@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Previev */
+
+.block__previev {
+    height: 100vh;
+    color: #fff;
+    padding-top: 25vw;
+    padding-left: 15vw;
+    position: relative;
+}
+
+.bg {
+    background: #444 url("../img/mountain.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    filter: saturate(40%) brightness(70%);
+}
+
+.title {
+    display: inline-block;
+    font-size: 2vw;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    text-shadow: 0 2px 4px rgba(0,0,0.4);
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1.5vw;
+    left: 0;
+    right: -4vw;
+    height: 0.3vw;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0.2);
+}
+
+/* content About me */
+
+.block__content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+.block__abme__left {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__abme__left__face {
+    width: 15vw;
+    height: 15vw;
+    transform: rotate(45deg);
+    position: relative;
+    top: -50px;
+    background-color: #333;    
+}
+
+.block__abme__left__face ::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: -12%;
+    width: 2px;
+    background-color: #333;
+}
+
+.balf__bg__wrap{
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+.balf__bg {
+    background: #333 url(../img/baldHead.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 140%;
+    width: 140%;
+    transform: rotate(-45deg);
+}
+
+.block__abme__left__text {
+    margin: 30px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #666;
+    border-right: 3px solid #555;
+    padding-right: 10px;
+    font-weight: 550;
+}
+
+.block__abme__right {
+    text-align: right;
+    padding: 20px 30px;
+    display: grid;
+    align-content: space-around;
+    grid-template-rows: repeat(3, auto) 1fr;
+    justify-items: end;
+}
+
+.title__abme {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #333;
+}
+
+.rank {
+    margin: 20px 0;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.description {
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: #333;
+
+}
+
+.list {
+    margin: 5px 0;
+    text-align: start;
+}
+
+.text__indent {
+    margin: 5px 0;
+}
+
+.line {
+    width: 3px;
+    background-color: #555;
+    margin: 10px 0;
+}
+
+/* Skills */
+
+.block__skills__left{
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.skills__title{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.skills__left__content{
+    display: grid;
+    align-content: flex-end;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 550;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+
+.skills__skill__text {
+    margin: 2px;
+}
+
+.block__skills__right {
+    text-align: right;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.code__title {
+    text-transform: uppercase;
+    letter-spacing: 10px;    
+    padding-bottom: 15px;
+}
+
+.cod {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+    text-align: start;
+}
+
+.code__task {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 1fr;
+}
+
+.code__solution {
+    display: grid;
+    justify-items: start;
+    margin: 10px;
+}
+
+.code__description {
+    display: grid;
+    justify-items: start;
+    text-align: start;
+}
+
+/* educate language contacts */
+
+.block__contacts__left {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.contacts__left__title {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.contacts__left__content {
+    display: grid;
+    align-content: flex-end;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 550;
+    border-left: 2px solid #333;
+    padding-left: 20px;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+
+.contacts__left__content__text {
+    margin: 10px 0;
+    color: #222;
+}
+
+.block__contacts__right {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.contacts__right__title {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: end;
+}
+
+.contacts__right__content {
+    display: grid;
+    align-content: flex-end;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 550;
+    border-right: 2px solid #fff;
+    padding-left: 20px;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+
+.contacts__right__content__text {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.contacts__right__title2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 40px;
+    text-align: end;
+}

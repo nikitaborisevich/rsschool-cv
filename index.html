@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>rsschool CV#2. HTML, CSS & Git Basicst</title>
+</head>
+
+<body>
+    <div class="block__previev">
+        <div class="bg"></div>
+        <h1 class="title">RSSchool CV#2. HTML, CSS & Git Basics</h1>
+    </div>
+
+    <div class="block__content">
+        <div class="block__abme__left">
+            <div>
+                <div class="block__abme__left__face">
+                    <div class="balf__bg__wrap">
+                        <div class="balf__bg"></div>
+                    </div>
+                </div>
+                <div class="block__abme__left__text">
+                    your soul is mine
+                </div>
+            </div>
+        </div>
+        <div class="block__abme__right">
+            <h1 class="title__abme">
+                Nikita<br>Borisevich
+            </h1>
+            <h3 class="rank">
+                Junior Frontend Developer<br>(Begining)
+            </h3>
+            <div class="description">
+                Currently I work in a family workshop as a stained glass artist, I am responsible for the full cycle of
+                stained glass production, from the development (creation of a graphic base) of a stained glass window to
+                the production of a finished material product. I have skills in stained glass areas such as:
+                <ul class="list">
+                    <li>Laid on stained glass.</li>
+                    <li>Brazed stained glass.</li>
+                    <li>Faceted stained glass.</li>
+                    <li>Polymer stained glass.</li>
+                </ul>
+                <p class="text__indent">Initially, he received an education in the specialty software information
+                    technology. He stopped moving
+                    in this area due to the need to participate in family business.</p>
+
+                <p class="text__indent">Why did you decide to change your field of activity? During my work in the field
+                    of stained glass
+                    production, I have reached the ceiling in development and for a long time I feel like I am trampling
+                    on
+                    the same level. I want to develop as a specialist as a developer, interest and craving for this
+                    field of
+                    activity have not faded in me since I studied at the university.p</p>
+
+                <p class="text__indent">Why am I able to advance in development?</p>
+                <ul class="list">
+                    <li>This type of activity I find extremely exciting for myself.</li>
+                    <li>I have sufficient perseverance.</li>
+                    <li>Self-discipline at a high level</li>
+                    <li>I see prospects for development in the field of programming.</li>
+                </ul>
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="block__content">
+        <div class="block__contacts__left">
+            <h1 class="contacts__left__title">
+                contacts
+            </h1>
+            <div class="contacts__left__content">
+                <p>
+                <h3 class="contacts__left__content__text">Location:</h3> Vitebsk, Belarus</p>
+                <p>
+                <h3 class="contacts__left__content__text">Phone:</h3> +375(33) 359 60 93</p>
+                <p>
+                <h3 class="contacts__left__content__text">Email:</h3> borisevich9852@gmail.com</p>
+                <p>
+                <h3 class="contacts__left__content__text">GitHub:</h3> nikitaborisevich</p>
+            </div>
+        </div>
+        <div class="block__contacts__right">
+            <h1 class="contacts__right__title">
+                education
+            </h1>
+            <div class="contacts__right__content">
+                <p>
+                University: Vitebsk State University named after P.M.
+                Masherov, faculty:"Information technology
+                software", speciality: "Engineer programmer"</p>
+                <p>
+                Self-education:
+                </p>
+                <ul>
+                    <li>LearnJS</li>
+                    <li>CodeWar</li>
+                </ul>
+                <p>
+                Courses: RS School Course "JavaScript/Front-end. Stage
+                1" (in progress)</p>
+                <p>
+                Books: Steven C.McConnell: "Code Complete Second
+                Edition" (in progress)</p>
+            </div>
+            <h1 class="contacts__right__title2">
+                Languages
+            </h1>
+            <div class="contacts__right__content">
+                <p>English: A2 (practiced English during work trips to Switzerland and Israel), currently on self-education</p>
+                <p>Belarusian: Native</p>
+                <p>Russian: Native</p>
+                <p>Ukrainian: Basic</p>
+                <p>Polish: Basic</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="block__content">
+        <div class="block__skills__left">
+            <h1 class="skills__title">
+                skills
+            </h1>
+            <div class="skills__left__content">
+                <div class="skills__skil">
+                    <p class="skills__skill__text">HTML, CSS</p>
+                    <p class="skills__skill__text"></p>JavaScript (Basic)</p>
+                    <p class="skills__skill__text"></p>Git, GitHub</p>
+                    <p class="skills__skill__text"></p>VS Code</p>
+                    <p class="skills__skill__text"></p>Graphics:</p>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Corel Draw</li>
+                        <li>Procrate</li>
+                        <li>Forger Classic</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="block__skills__right">
+            <h1 class="code__title">
+                code
+            </h1>
+            <h2>Array Helpers KATA from CODEWARS:</h2>
+            <div class="code__task">
+                <div class="code__solution">
+                    <h3>Solution:</h3>
+                    <div class="cod">
+                        <pre><code>
+Array.prototype.square = function() {
+  let arr = [];
+  for (let key = 0; key < this.length; key++) {
+    arr.push(Math.pow(this[key], 2)) 
+  }
+  return arr
+}
+Array.prototype.cube = function() {
+  let arr = [];
+  for (let key = 0; key < this.length; key++) {
+    arr.push(Math.pow(this[key], 3))
+  }
+  return arr
+}
+Array.prototype.average = function() {
+  let meaning = 0;
+  for (let key = 0; key < this.length; key++) {
+    meaning += this[key]
+  }
+  meaning = meaning / this.length
+  return meaning
+}
+Array.prototype.sum = function() {
+  let sum = 0;
+  for (let key = 0; key < this.length; key++) {
+    sum += this[key]
+  }
+  return sum
+}
+Array.prototype.even = function() {
+  let arr = [];
+  for (let key = 0; key < this.length; key++) {
+    if (this[key] % 2 == 0) {
+      arr.push(this[key])
+    }
+  }
+  return arr
+}
+Array.prototype.odd = function() {
+  let arr = [];
+  for (let key = 0; key < this.length; key++) {
+    if (this[key] % 2 !== 0) {
+      arr.push(this[key])
+    }
+  }
+  return arr
+}
+                        </code></pre>
+                    </div>
+                </div>
+                <div class="code__description">
+                    <h3>Deskription:</h3>
+
+                    <p>This kata is designed to test your ability to extend the functionality of built-in classes. In
+                        this
+                        case, we want you to extend the built-in Array class with the following methods: <code
+                            class="cod">square()</code>, <code class="cod">cube()</code>,
+                        <code class="cod">average()</code>, <code class="cod">sum()</code>, <code
+                            class="cod">even()</code> and <code class="cod">odd()</code>.
+                    </p>
+
+                    <h3>Explanation:</h3>
+
+                    <p><code class="cod">square()</code> must return a copy of the array,containing all values squared
+                    </p>
+                    <p><code class="cod">cube()</code> must return a copy of the array, containing all values cubed</p>
+                    <p><code class="cod">average()</code> must return the average of all array values; on an empty
+                        array must return NaN</p>
+                    <p><code class="cod">sum()</code> must return the sum of all array values</p>
+                    <p><code class="cod">even()</code> must return an array of all even numbers</p>
+                    <p><code class="cod">odd()</code> must return an array of all odd numbers</p>
+                    <p>Note: the original array must not be changed in any case!</p>
+
+                    <h3>Example:</h3>
+                    <div class="cod">
+                        var numbers = [1, 2, 3, 4, 5];<br>
+                        <br>
+                        numbers.square(); //return [1, 4, 9, 16, 25]<br>
+                        numbers.cube(); //return [1, 8, 27, 64, 125]<br>
+                        numbers.average(); //return 3<br>
+                        numbers.sum(); //return 15<br>
+                        numbers.even(); //return [2, 4]<br>
+                        numbers.odd(); //return [1, 3, 5]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
